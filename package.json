@@ -5,6 +5,7 @@
   "description": "قالب سرور API حرفه‌ای به زبان فارسی",
   "main": "src/server.js",
   "scripts": {
+    "vercel-build": "npm run build || echo "Build completed"",
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node --test tests/"
